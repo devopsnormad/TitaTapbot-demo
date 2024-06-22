@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
 
   return (
     <footer className="max-w-full sm:max-w-md mx-auto bg-gray-800 text-white">
-      <div className="p-3 max-w-full sm:max-w-md mx-auto flex items-center justify-between">
+      <div className="p-3 max-w-full sm:max-w-md mx-auto flex items-center justify-around">
         <button
           className={`flex flex-col items-center space-y-1 ${
             activeTab === "earn" ? "text-purple-500" : "text-white"
