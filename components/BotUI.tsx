@@ -83,7 +83,7 @@ useEffect(() => {
 
 
   return (
-    <div className="bot-ui p-3 max-w-md mx-auto sm:max-w-sm md:max-w-md">
+    <div className="bot-ui p-2 max-w-md mx-auto sm:max-w-sm md:max-w-md">
       {/* Row One */}
       <div className="flex md:flex-row justify-between m-5 gap-3">
         <Card>
@@ -101,26 +101,26 @@ useEffect(() => {
       </div>
 
       {/* Row Two */}
-      <div className="bg-gray-800 rounded-xl m-4 text-white p-6 flex flex-col items-center gap-5">
+      <div className="bg-gray-800 rounded-xl m-4 text-white p-2 flex flex-col items-center gap-5">
         <button
           onClick={handleTap}
-          className="mt-4 w-44 h-48 sm:w-48 sm:h-48 bg-yellow-400 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-lg relative"
+          className="mt-4 w-44 h-44 sm:w-44 sm:h-44 bg-yellow-400 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-lg relative"
         >
           <span className="absolute inset-0 flex items-center justify-center">
-            <span className="block w-16 h-16 sm:w-44 sm:h-44 bg-yellow-300 rounded-full"></span>
+            <span className="block w-16 h-16 sm:w-40 sm:h-40 bg-yellow-300 rounded-full"></span>
           </span>
           <span className="absolute inset-0 flex items-center justify-center">
-            <span className="block w-44 h-44 sm:w-44 sm:h-44 bg-yellow-400 rounded-full border-4 border-yellow-600"></span>
+            <span className="block w-40 h-40 sm:w-40 sm:h-40 bg-yellow-400 rounded-full border-4 border-yellow-600"></span>
           </span>
           <span className="absolute inset-0 flex items-center justify-center">
             <img
               src="/tita-logo.svg"
               alt="tita logo"
-              className="w-80 h-80 sm:w-80 sm:h-80 pb-5"
+              className="w-72 h-72 sm:w-48 sm:h-48 pb-5"
             />
           </span>
           {showPlusOne && (
-            <span className="absolute text-green-500 text-2xl animate-fade-out">
+            <span className="absolute text-gray-700 text-2xl animate-fade-out">
               +1
             </span>
           )}
