@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Card from "./Card";
 
 
+
 const BotUI = () => {
   const [balance, setBalance] = useState(0);
   const [totalTokens, setTotalToken] = useState(0);
@@ -112,7 +113,11 @@ useEffect(() => {
             <span className="block w-44 h-44 sm:w-44 sm:h-44 bg-yellow-400 rounded-full border-4 border-yellow-600"></span>
           </span>
           <span className="absolute inset-0 flex items-center justify-center">
-            {/* Image here */}
+            <img
+              src="/tita-logo.svg"
+              alt="tita logo"
+              className="w-80 h-80 sm:w-80 sm:h-80 pb-5"
+            />
           </span>
           {showPlusOne && (
             <span className="absolute text-green-500 text-2xl animate-fade-out">
