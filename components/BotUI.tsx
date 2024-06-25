@@ -101,7 +101,7 @@ useEffect(() => {
       </div>
 
       {/* Row Two */}
-      <div className="bg-gray-800 rounded-xl m-4 text-white p-2 flex flex-col items-center gap-5">
+      <div className="bg-gray-800 rounded-xl m-6 text-white p-8 flex flex-col items-center gap-5">
         <button
           onClick={handleTap}
           className="mt-4 w-44 h-44 sm:w-44 sm:h-44 bg-yellow-400 rounded-full flex items-center justify-center text-white text-lg font-bold shadow-lg relative"
